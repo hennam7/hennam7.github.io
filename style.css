@@ -27,6 +27,7 @@ img {
     justify-content: space-between;
     padding: 15px 10px;
     background: #e0620d;
+    position: relative;
 }
 
 .logo {
@@ -54,15 +55,24 @@ img {
     }
 }
 #navbar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #navbar li {
     list-style: none;
     padding: 0 20px;
-    padding-top: 5pc;
+    display: inline-block;
+}
+#navbar ul {
+    display: flex;
+    gap: 20px;
 }
 
 #navbar li a {
