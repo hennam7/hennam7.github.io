@@ -33,7 +33,26 @@ img {
     height: 90px;
     padding-left: 15px;
 }
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        background: #e0620d;
+        padding: 10px;
+    }
 
+    #navbar li {
+        padding: 10px 0;
+    }
+
+    .pro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #product1 .pro {
+        width: 80%;
+    }
+}
 #navbar {
     display: flex;
     align-items: center;
@@ -343,4 +362,11 @@ img {
 .product-filters button:hover {
     background-color: #e0620d;
     color: white;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0620d;
+    color: white;
+    font-size: 14px;
 }
