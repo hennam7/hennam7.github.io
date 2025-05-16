@@ -72,6 +72,7 @@ img {
     justify-content: center;
     position: relative;
 }
+
 .hero-btn-wrapper {
     position: absolute;
     bottom: 20px;
@@ -321,6 +322,7 @@ img {
 .map {
     margin-top: 40px;
 }
+
 .product-filters {
     text-align: center;
     margin: 20px 0;
