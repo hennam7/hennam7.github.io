@@ -56,6 +56,7 @@ body {
     width: 100%;
     background-size: cover;
     background-position: top 40% right 0;
+    box-sizing: border-box;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
