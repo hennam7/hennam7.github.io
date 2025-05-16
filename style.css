@@ -59,7 +59,7 @@ img {
 }
 
 #hero {
-    background-image: url(img/backround1.jpg);
+    background-image: url(img/backround4.webp);
     height: 35vh;
     width: 100%;
     background-size: cover;
@@ -313,4 +313,25 @@ img {
 
 .map {
     margin-top: 40px;
+}
+.product-filters {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product-filters button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: 1px solid #e0620d;
+    background-color: white;
+    color: #e0620d;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.product-filters button:hover {
+    background-color: #e0620d;
+    color: white;
 }
