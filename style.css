@@ -51,7 +51,7 @@ body {
 }
 
 #hero {
-    background-image: url(img/keycaps1.jpg);
+    background-image: url(img/backround1.jpg);
     height: 35vh;
     width: 100%;
     background-size: cover;
@@ -204,9 +204,6 @@ body {
     margin: 15px 0;
     transition: 0, 2 ease;
 }
-
-#product1 .pro:hover {}
-
 #product1 .pro img {
     width: 100%;
     border-radius: 10px;
