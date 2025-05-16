@@ -70,8 +70,15 @@ img {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    position: relative;
 }
-
+.hero-btn-wrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
 
 /* From Uiverse.io by mrhyddenn */
 .button {
